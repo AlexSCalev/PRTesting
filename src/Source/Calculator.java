@@ -1,7 +1,7 @@
 package Source;
 
 public interface Calculator<T> {
-    public T summNumbers(T number1,T number2);
-    public T multiplyNumbers(T number1 , T number2);
-    public T devideNumbers(T number1 , T number2);
+    public int summNumbers(T number1,T number2);
+    public int multiplyNumbers(T number1 , T number2);
+    public int devideNumbers(T number1 , T number2);
 }
